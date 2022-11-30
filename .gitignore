@@ -1,0 +1,9 @@
+node_modules
+src/css
+src/img
+.parcel-cache*
+package-lock.json
+dist/
+.vscode
+clearroot.sh
+movetoroot.sh
