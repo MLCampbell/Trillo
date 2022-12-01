@@ -5,8 +5,9 @@
   "source": "src/index.html",
   "scripts": {
     "start": "rimraf dist && parcel",
+    "compile:sass": "node-sass src/sass/main.scss src/css/style.css -w",
     "build": "rimraf dist && parcel build --public-url ./",
-    "compile:sass": "node-sass src/sass/main.scss src/css/style.css -w"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/MLCampbell/trillo#readme",
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "node-sass": "^8.0.0",
     "parcel": "^2.8.0",
     "rimraf": "^3.0.2"

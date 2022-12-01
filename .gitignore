@@ -6,3 +6,4 @@ package-lock.json
 .vscode
 clearroot.sh
 movetoroot.sh
+dist/
