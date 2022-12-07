@@ -1,0 +1,1 @@
+{"mappings":"AAAAA,SAASC,cAAc,UAAUC,UAAY,iBAAgB,IAAIC,MAAOC","sources":["src/index.js"],"sourcesContent":["document.querySelector('.legal').innerHTML = `<span>&copy; ${new Date().getFullYear()} by trillo</span>`;\r\n"],"names":["document","querySelector","innerHTML","Date","getFullYear"],"version":3,"file":"index.7f76e6e6.js.map"}
