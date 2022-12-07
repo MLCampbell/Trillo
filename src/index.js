@@ -1,1 +1,1 @@
-document.querySelector('.legal').innerHTML = `<span>&copy; ${new Date().getFullYear()} by Trillo</span>`;
+document.querySelector('.legal').innerHTML = `<span>&copy; ${new Date().getFullYear()} by trillo</span>`;
